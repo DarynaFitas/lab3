@@ -6,5 +6,5 @@
     <input type="text" name="gendre" placeholder="Стать"><br>
     <input type="number" name="age" placeholder="Вік"><br>
 
-    <button type="submit">Додати пенсіонера</button>
+    <button type="submit">Додати пенсіонерів</button>
 </form>
