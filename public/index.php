@@ -2,7 +2,6 @@
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
-use App\Http\Controllers\OblikController;
 
 define('LARAVEL_START', microtime(true));
 

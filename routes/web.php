@@ -13,19 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\OblikController;
-
-Route::get('/oblik/create', [OblikController::class, 'create']);
-
-Route::post('/oblik', [OblikController::class, 'store']);
-
-Route::get('/oblik', [OblikController::class, 'index']);
-
-Route::get('/oblik/{oblik}', [OblikController::class, 'show']);
-
-Route::get('/oblik/{oblik}/edit', [OblikController::class, 'edit']);
-
-Route::put('/oblik/{oblik}', [OblikController::class, 'update']);
-
-Route::delete('/oblik/{oblik}', [OblikController::class, 'destroy']);
-
+Route::get('/', function () {
+    return view('welcome');
+});
